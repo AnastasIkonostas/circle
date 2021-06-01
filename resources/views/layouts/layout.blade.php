@@ -148,12 +148,11 @@
 
 <footer>
     <div class="text-center">
-        <img src="/resources/src/logo.png">
+    <a href = "{{ route('main') }}">  <img class = "logo" src="/resources/src/logo.png" /> </a>
         <p class="logoTitleFooter"><b>C I R C L E</b></p>
     </div>
     <div class="contactLinks">
         <div class="links">
-            <a href = "{{ route('main') }}" class="footerItem">На главную</a>
             <a href = "{{ route('forChildren') }}" class="footerItem">Для детей</a>
             <a href = "{{ route('forTeens') }}" class="footerItem">Для подростков</a>
             <a href = "{{ route('forAdults') }}" class="footerItem">Для взрослых</a>

@@ -1,0 +1,345 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto/Roboto-Regular.ttf")
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+body {
+  background: #D6CDCD;
+  font-family: 'Roboto';
+}
+header {
+  margin-bottom: 50px;
+}
+.headerContacts {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.blackButton {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 42px;
+  border-radius: 12px;
+  font-size: 24px;
+}
+.mt-1 {
+  margin-top: 10px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+
+
+
+.menu {
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  padding: 7px 20px;
+  align-items: center;
+}
+.menuWrap {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menuItem {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 24px;
+}
+.logo{
+  width: 150px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+.logoTitle {
+  font-size: 30px;
+  color: #fff;
+}
+.headerMobile {
+  display: none;
+  background-color: #000;
+}
+.text-center {
+  text-align: center;
+}
+
+
+
+
+.main{
+  margin: 70px 0;
+}
+.quests {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.questItem {
+  background-color: #000;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  width: 49%;
+  margin: 10px 0;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+}
+.questImage {
+  width: 100%;
+}
+.questTitle {
+  font-size: 30px;
+  font-weight: 300;
+}
+.questText {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.questMore {
+  color: #000;
+  background-color: #fff;
+  padding: 10px 42px;
+  border-radius: 12px;
+  font-size: 24px;
+}
+.questType {
+  margin: 20px 0;
+}
+.info {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 0 15px 15px;
+}
+.info > h3 {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+  margin: 20px 0 30px;
+}
+.info > p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.gallery{
+  width: 95%;
+  margin: 25px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.big-image-gallery {
+  width: 85%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.gallery > img {
+  width: 48%;
+  max-height: 400px;
+  object-fit: contain;
+}
+.big-image-gallery > img {
+  width: 32%;
+  max-height: 600px;
+  object-fit: contain;
+}
+footer {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 100px 50px;
+}
+.footerItem {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.logoTitleFooter {
+  font-size: 30px;
+  color: #fff;
+}
+.contactLinks {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.instaImage {
+  position: absolute;
+  right: 0px;
+  top: -15px;
+  margin-left: 15px;
+}
+.position-relative {
+  position: relative;
+}
+
+
+
+
+.mapInfo {
+  border: 1px solid #000000;
+  display: flex;
+  border-radius: 20px;
+  margin:  auto;
+  padding: 20px;
+  width: 92%;
+  justify-content: space-between;
+}
+.map{
+  width: 60%;
+  margin: 20px 0;
+  border: 1px solid #000000;
+}
+.mapText{
+  margin: auto;
+  font-size: 24px;
+  color: black;
+}
+
+
+
+
+.sertificat{
+  width: 52%;
+  margin: 70px auto;
+  align-items: center;
+  display: flex;
+}
+.priceButton {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 28px 35px;
+  border-radius: 20px;
+  font-size: 30px;
+}
+.price{
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin: auto;
+  width: 70%;
+}
+
+
+
+.questItemPage {
+  background-color: #000;
+  padding: 18px 16px;
+  box-sizing: border-box;
+  width: 95%;
+  margin: auto;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 24px;
+}
+.questImagePage {
+  width: 100%;
+}
+.questTitlePage{
+  font-size: 35px;
+  font-weight: 200;
+  padding-top: 30px;
+}
+.questTypePage {
+  margin: 30px 0;
+}
+
+
+
+.information{
+  text-align: center;
+  font-size: 36px;
+  margin: 50px 0 ;
+}
+.bookButton{
+  background-color: #000;
+  color: #fff;
+  padding: 28px 30px;
+  border-radius: 22px;
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px auto;
+}
+.book{
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+
+
+
+
+@media only screen and (max-width: 1200px){
+  .questTitle{
+    font-size: 28px;
+  }
+  footer{
+    padding: 70px 80px 40px;
+  }
+  .menuItem{
+    font-size: 19px;
+  }
+  .menu{
+    padding: 7px 10px;
+  }
+  .footerItem{
+    font-size: 28px;
+  }
+
+
+  .mapInfo{
+    flex-direction: column-reverse;
+    padding: 30px 30px 0;
+    width: 90%;
+  }
+  .map{
+    width: 100%;
+    margin: 0;
+  }
+  .textAllMap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  .mapText{
+    width: 48%;
+    margin: 0 auto;
+  }
+
+
+
+  .sertificat{
+    width: 70%;
+  }
+  .price{
+    width: 80%;
+  }
+
+
+
+}

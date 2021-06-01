@@ -1,0 +1,208 @@
+@media only screen and (max-width: 576px){
+
+header {
+    margin-bottom: 20px;
+}    
+
+.headerContacts {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+.headerMobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: block;
+    width: 50px;
+}
+
+.logoTitle {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.burgerOpen {
+    width: 100%;
+    display: none;
+    background-color: #000;
+    text-align: center;
+}
+
+.burgerImage:hover + .burgerOpen {
+    display: block;
+}
+
+.burgerOpen:hover {
+    display: block;
+}
+
+.main{
+    margin: 30px 0;
+} 
+.quests {
+    padding: 0 10px;
+}
+.questItem{
+    width: 95%;
+    margin: 10px auto;
+}
+.questTitle{
+    font-size: 14px;
+}
+.questText{
+    font-size: 11px;
+    display: block;
+}
+.questMore{
+    font-size: 14px;
+    width: 30%;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.info {
+    margin: 10px;
+    padding: 0 5px 10px;
+}
+
+.info > h3 {
+    font-size: 14px;
+    line-height: 15px;
+    margin: 10px 0;
+}
+
+.info > p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.gallery {
+    width: 85%;
+    display: block;
+}
+
+.gallery > img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: block;
+}
+
+.footerItem {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.contactLinks {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.contacts {
+    margin-top: 130px;
+}
+
+.instaImage {
+    width: 50px;
+    top: -10px;
+}
+
+
+
+.mapInfo{
+    padding: 10px;
+    flex-direction: column;
+}
+.textAllMap{
+    display: block;
+    flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 18px;
+}
+.mapText{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+
+
+.price{
+    width: 90%;
+}
+.priceButton {
+    padding: 18px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin: 10px 0;
+  }
+.sertificat{
+    margin: 40px auto;
+    width: 90%;
+}
+
+
+
+.big-image-gallery {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.big-image-gallery > img {
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+
+.bookButton{
+    width: 70%;
+    padding: 15px 8px;
+    font-size: 18px;
+    margin: 5px auto ;
+    border-radius: 10px;
+}
+.information{
+    font-size: 16px;
+    margin: 10px auto;
+    width: 90%;
+}
+
+
+
+.questItemPage{
+    font-size: 12px;
+    padding: 8px 6px;
+    border-radius: 10px;
+}
+.questTitlePage{
+    font-size: 14px;
+    padding-top: 5px;
+}
+.questTypePage{
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.info{
+    border-radius: 10px;
+}
+}

@@ -1,0 +1,90 @@
+@media only screen and (max-width: 768px){
+.logo{
+width: 140px; 
+}
+.logoTitle{
+  font-size: 26px;
+  line-height: 15px;
+}
+.blackButton{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.fs-24{
+    font-size: 20px;
+}
+.info{
+    margin: 20px;
+}
+.main{
+    margin: 50px 0;
+}
+.footerItem{
+    font-size: 20px;
+}
+.contactLinks{
+    width: 65%;
+}
+.logoTitleFooter{
+    font-size: 26px;
+    line-height: 40px;
+}
+
+
+
+.mapInfo{
+    width: 85%;
+    padding: 20px 20px 0;
+  }
+.mapText{
+    font-size: 20px;
+}
+
+
+
+.price{
+    width: 80%;
+}
+.sertificat{
+    margin: 40px auto;
+    width: 80%;
+}
+
+
+
+.big-image-gallery {
+    margin: 30px auto;
+}
+
+
+
+.bookButton{
+    width: 70%;
+    padding: 20px 10px;
+    border-radius: 15px;
+    font-size: 24px;
+    align-items: center;
+    margin: 10px auto ;
+    text-align: center;
+  }
+.information{
+    font-size: 30px;
+    margin: 30px auto;
+    width: 90%;
+}
+
+
+
+.questItemPage{
+    font-size: 20px;
+    padding: 14px 12px;
+}
+.questTitlePage{
+    font-size: 30px;
+    padding-top: 15px;
+}
+.questTypePage{
+    font-size: 20px;
+    margin: 20px 0;
+}
+}

@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1024px){
+    .logoTitle{
+        font-size: 28px;
+    }
+    .menuWrap{
+        flex-direction: column;
+    }
+    .menuItem{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .quests{
+        flex-direction: column;
+        padding:0;
+    }
+    .questItem{
+        width: 90%;
+        margin: 12px auto;
+        align-items: center;
+    }
+    .questTitle{
+        font-size: 30px;
+    }
+    .fs-30{
+        font-size: 24px;
+    }
+    footer{
+        padding: 30px 30px 20px;
+      }
+    .footerItem{
+          font-size: 24px;
+    }
+    .logoTitleFooter{
+        font-size: 28px;
+    }
+
+
+
+    .mapInfo{
+        width: 90%;
+      }
+    .mapText{
+        font-size: 22px;
+    }
+
+
+
+    .priceButton {
+        margin: 15px 0;
+    }
+    .price{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: auto ;
+        width: 60%;
+    }
+    .sertificat{
+        margin: 50px auto;
+        width: 80%;
+    }
+
+
+
+    .big-image-gallery {
+        margin: 40px auto;
+    }
+      
+
+}

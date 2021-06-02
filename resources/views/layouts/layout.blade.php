@@ -69,7 +69,7 @@
                             <input type="text" placeholder="Имя и фамилия..." name="namee">
                         </div>
                     </div>
-                    <button> Заказать </button>
+                    <button> Перезвоните мне </button>
                 </form>
             </div>
         </div>

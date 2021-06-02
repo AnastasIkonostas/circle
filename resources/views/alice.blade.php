@@ -24,9 +24,12 @@
 
 
     <div class = "book">
-        <div class = "bookButton">
-            Позвоните для бронирования комнаты
-        </div>
+    <style>
+        .book{
+            justify-content: center;
+        }
+        </style>
+        <a href="tel:0960433016"><div class = "bookButton"> Позвоните для бронирования комнаты </div> </a>
     </div>
 
 
